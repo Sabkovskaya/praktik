@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../component/Header';
 import Footer from '../component/Footer';
-import Sea from '../component/Sea';
+import Search from '../component/Search';
 
 
 const componentName = () => {
@@ -9,7 +9,7 @@ const componentName = () => {
         <div>
             <Header/>
             <main style={{ minHeight: "70vh" }}>
-            <Sea/>
+            <Search/>
             </main>
             <Footer/>
         </div>

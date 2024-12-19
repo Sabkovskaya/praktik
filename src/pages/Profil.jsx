@@ -8,11 +8,11 @@ import Prof from '../component/Prof';
 const componentName = () => {
     return (
         <div>
-            <Header/>
+           
             <main style={{ minHeight: "70vh" }}>
             <Prof/>
             </main>
-            <Footer/>
+   
         </div>
     );
 };

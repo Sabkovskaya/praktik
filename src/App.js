@@ -5,6 +5,7 @@ import Profil from '../src/pages/Profil';
 import Regictration from '../src/pages/Regictration';
 import Add_pet from '../src/pages/Add_pet';
 import Search from '../src/pages/Search';
+import Login from '../src/component/Login';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/region' element={<Regictration/>}/>
         <Route path='/add_pet' element={<Add_pet/>}/>
         <Route path='/search' element={<Search/>}/>
+        <Route path='/login' element={<Login/>}/>
       </Routes>
 
     </div>

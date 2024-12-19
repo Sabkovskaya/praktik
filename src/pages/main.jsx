@@ -3,9 +3,9 @@ import Header from '../component/Header';
 import Footer from '../component/Footer';
 import Slaider from '../component/Slaider';
 import Kartochki from '../component/Kartochki';
-import Subscrib  from '../component/subscrib';
+import Subscrib  from '../component/Subscribe';
 import Card from '../component/Card';
-
+import Login from '../component/Login';
 
  
 function Main(props) {

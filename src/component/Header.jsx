@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../img/logo.png';
 import {Link} from "react-router-dom";
+import Search2 from "./Search2";
 
 
 const Header = () => {
@@ -40,7 +41,7 @@ const Header = () => {
         </li>
         <li className="nav-item">
           {/* <a className="nav-link" href="html/profile.html"> */}
-            <Link to={'/profil'} className="nav-link">
+            <Link to={'/login'} className="nav-link">
             Личный кабинет
             </Link>
           {/* </a> */}
@@ -66,25 +67,7 @@ const Header = () => {
           {/* </a> */}
         </li>
       </ul>
-      <form className="d-flex">
-        <input
-          className="form-control me-2"
-          type="search"
-          list="pets"
-          placeholder="Поиск"
-          aria-label="Search"
-        />
-        <button className="btn btn-primary" onclick="">
-          Поиск
-        </button>
-        <datalist id="pets">
-          <option value="Кошка"></option>
-          <option value="Собака"></option>
-          <option value="Курица"></option>
-          <option value="Паук"></option>
-          <option value="Попугай"></option>
-        </datalist>
-      </form>
+      <Search2/>
     </div>
   </div>
 </nav>
