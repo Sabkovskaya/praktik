@@ -38,8 +38,8 @@ const Regictr = () => {
                     if (result === 204) {
                         let message = 'Вы успешно зарегистрировались!';
                         blocks.current.innerText = message;
-                        blocks.current.style.background = "#34C924"
-                        blocks.current.style.color = "black";
+                        blocks.current.style.background = "success-rgb"
+                        blocks.current.style.color = "white";
                         blocks.current.style.border = "1px solid rgb(19, 136, 8)"
                         blocks.current.style.display = 'flex';
                     }
